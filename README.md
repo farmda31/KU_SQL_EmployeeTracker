@@ -1,2 +1,13 @@
-# KU_SQL_EmployeeTracker
-Week 10 challenge for SQL
+# Employee Tracker
+
+## Description
+
+## Licensing
+
+## Installation
+
+## How to Use It
+
+## Video Walkthrough
+
+## FAQs
