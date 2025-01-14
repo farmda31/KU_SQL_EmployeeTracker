@@ -21,7 +21,22 @@ Users will also need to install the "PG" package via NPM. To install the "PG" pa
 •	Right click on the "src" subfolder, from the "Employee-Tracker" repository, and select "Open In Integrated Terminal".
 •	Type "npm install pg" and click the "Enter" key.
 
-## How to Use It
+## How to Connect to PostgreSQL
+Once all required packages have been installed, the user will need to connect to their PostgreSQL database.
+To connect to your local database, follow these steps:
+
+•	Open Visual Studio on your local computer.
+•	Navigate to the "Employee-Tracker" repository.
+•	Right click on the "db" subfolder, from the "Employee-Tracker" repository, and select "Open In Integrated Terminal".
+- Type "psql -U postgres -h localhost" and click the "Enter" key.
+- Provide your postgreSQL account password and click the "Enter" key.
+- After successfully logging in, type "\c employee_tracker_db" and click the "Enter" key. (NOTE: If your database is a different name, then update the command line to have your database name).
+- Type "\i schema.sql" and click the "Enter" key.  This will run the SQL file and create the database, if it does not exist.
+- Type "\i schema2.sql" and click the "Enter" key.  This will create the necessary tables, if they do not exist.
+- Type "\i seeds.sql" and click the "Enter" key.  This will populate the employee, role, and department tables with seed data.
+- Type "\q" to exist PostgreSQL.
+
+## How to Run the Command Line Application
 
 ## Video Walkthrough
 
