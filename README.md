@@ -61,7 +61,7 @@ There are several queries available to run against the employee tracker database
 - Exit - Users can use this option to exit the application.
 
 ## Video Walkthrough
-The video walkthrough is located at 
+The video walkthrough is located at https://github.com/farmda31/KU_SQL_EmployeeTracker/blob/60b44b7ed419207247e483b028425bdacfa1f84e/Employee%20Tracker%20v2.mp4.
 
 ## FAQs
 - Can I delete an existing option via the command line application? No.  Delete functionality is not currently available.
