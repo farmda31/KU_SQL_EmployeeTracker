@@ -61,6 +61,7 @@ There are several queries available to run against the employee tracker database
 - Exit - Users can use this option to exit the application.
 
 ## Video Walkthrough
+The video walkthrough is located at 
 
 ## FAQs
 - Can I delete an existing option via the command line application? No.  Delete functionality is not currently available.
