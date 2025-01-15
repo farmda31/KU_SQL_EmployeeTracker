@@ -42,7 +42,7 @@ To start using the application, follow these steps:
 
 - Open Visual Studio on your local computer.
 - Navigate to the "Employee-Tracker" repository.
-- Right click on the "src" subfolder, from the "Employee-Tracker" repository, and select "Open In Integrated Terminal". (NOTE: Before running the employee-tracker.js through node js, you'll need to edit the password line for your personal postgreSQL password.  If you do not update the password to your personal password, the application will not work.)
+- Right click on the "src" subfolder, from the "Employee-Tracker" repository, and select "Open In Integrated Terminal". (NOTE: Before running the employee-tracker.js through node js, you'll need to edit the password  on line 9 of the javascript file for your personal postgreSQL password.  If you do not update the password to your personal password, the application will not work.)
 - Type "node employee-tracker.js" and click the "Enter" key.
 - The command line will now show available options for queries that can be run.  Use the up and down arrows on your keyboard to highlight the query that you would like to run.  After selecting the desired query click the "Enter" key on your keyboard and then respond to each question appropriately.
 
